@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+    <body id="content">
+
+            
+        <button onclick="connectWallet()">connect wallet</button>
+        
+
+
+        <div>
+            <div id="information" onload="displayVersionAndBlock">
+                <div>Ethereum Mainnet</div>
+                <div>Remote node from getBlock.io</div>
+                <div id="web3-version">web3.js version: </div>
+                <div id="current-block">current block: </div>
+                <div id="metamaskBool">is metamask installed: </div>
+            </div>
+        </div>
+
+        <script src="web3.min.js"></script>
+        <script src="web3-object.js"></script>
+        <script src="web3-get-block.js"></script>
+        <script src="metamask-installed.js"></script>
+        <script src="connect-wallet.js"></script>
+    </body>
+    </html>
